@@ -10,7 +10,7 @@ def add_user(name: str, phone_number, json_object):
   with open(f"{json_object}", "r") as file:
     json_object = json.load(file)
 
-  id = str(uuid4())
+  id = str(uuid4())# kdfdjfgjdfbs
   date_of_creation = datetime.timestamp(datetime.now())
   a = str(phone_number)
   try:
